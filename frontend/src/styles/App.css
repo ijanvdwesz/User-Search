@@ -1,0 +1,51 @@
+/* Centers the text inside the main App container */
+.App {
+  text-align: center;
+}
+
+/* Styles the logo, setting its height and disabling pointer events */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none; /* Prevents interaction with the logo */
+}
+
+/* Adds a spinning animation to the logo when motion preference allows it */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Styles the header with a dark background and centers content */
+.App-header {
+  background-color: #282c34; /* Dark background color */
+  min-height: 100vh; /* Full viewport height */
+  display: flex; /* Uses flexbox for alignment */
+  flex-direction: column; /* Stacks children vertically */
+  align-items: center; /* Centers items horizontally */
+  justify-content: center; /* Centers items vertically */
+  font-size: calc(10px + 2vmin); /* Responsive font size */
+  color: white; /* White text color */
+}
+
+/* Defines the spinning animation */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); /* Starts at 0-degree rotation */
+  }
+  to {
+    transform: rotate(360deg); /* Rotates fully */
+  }
+}
+
+/* Removes default styling for unordered lists */
+ul {
+  list-style-type: none; /* Removes bullet points */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+}
+
+/* Styles all anchor links */
+a {
+  color: rgb(7, 252, 7); /* Sets a bright green color */
+}

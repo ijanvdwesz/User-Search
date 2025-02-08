@@ -1,0 +1,33 @@
+/* Styles for the commits section */
+.commits {
+  margin-top: 20px; /* Adds space above the commits section */
+}
+
+/* Styles the commit section heading */
+.commits h4 {
+  font-size: 1.3rem; /* Sets a slightly larger font size */
+}
+
+/* Removes default list styling from the commit list */
+.commits ul {
+  list-style: none; /* Removes bullet points */
+  padding: 0; /* Removes default padding */
+}
+
+/* Styles each commit item in the list */
+.commits li {
+  margin-bottom: 15px; /* Adds spacing between commit items */
+  padding: 10px; /* Adds padding for better readability */
+  border-bottom: 1px solid #ddd; /* Adds a light separator between commits */
+}
+
+/* Ensures bold styling for key commit details */
+.commits li strong {
+  font-weight: bold; /* Makes important text stand out */
+}
+
+/* Styles paragraph text within each commit */
+.commits li p {
+  margin: 5px 0; /* Adds vertical spacing around paragraphs */
+  color: #555; /* Sets a slightly muted text color */
+}

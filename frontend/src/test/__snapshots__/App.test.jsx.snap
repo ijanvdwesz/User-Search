@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component matches the snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      GitHub User Search
+    </h1>
+    <div>
+      UserSearch Component
+    </div>
+  </div>
+</DocumentFragment>
+`;
